@@ -354,9 +354,30 @@
   border-color: #D4C4A8;
 }
 
-.problem-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.problem-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #FFF5E6 0%, #FFE8CC 100%);
+  border-radius: 20px;
+  margin: 0 auto 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.problem-card:hover .problem-icon-wrapper {
+  background: linear-gradient(135deg, #D4A574 0%, #B8935E 100%);
+  transform: scale(1.1);
+}
+
+.problem-icon-svg {
+  color: #8B7355;
+  transition: color 0.3s ease;
+}
+
+.problem-card:hover .problem-icon-svg {
+  color: white;
 }
 
 .problem-card h3 {
