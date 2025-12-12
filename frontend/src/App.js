@@ -138,22 +138,30 @@ function App() {
             <h2 className="section-title">Tantangan yang Dihadapi Petani</h2>
             <div className="problem-grid">
               <div className="problem-card">
-                <div className="problem-icon">⚠️</div>
+                <div className="problem-icon-wrapper">
+                  <AlertTriangle className="problem-icon-svg" size={40} />
+                </div>
                 <h3>Komunikasi Tidak Efektif</h3>
                 <p>Arahan pola tanam dari ketua komunitas jarang disampaikan, pertemuan hanya 2x setahun tanpa evaluasi.</p>
               </div>
               <div className="problem-card">
-                <div className="problem-icon">🌾</div>
+                <div className="problem-icon-wrapper">
+                  <Sprout className="problem-icon-svg" size={40} />
+                </div>
                 <h3>Ketidakteraturan Produksi</h3>
                 <p>Tanpa panduan seragam, petani tidak tahu jenis tanaman yang sesuai musim dan kondisi tanah.</p>
               </div>
               <div className="problem-card">
-                <div className="problem-icon">💰</div>
+                <div className="problem-icon-wrapper">
+                  <DollarSign className="problem-icon-svg" size={40} />
+                </div>
                 <h3>Harga Jual Rendah</h3>
                 <p>Terpaksa menjual ke tengkulak dengan harga di bawah Rp6.500/kg karena kuota Bulog terbatas.</p>
               </div>
               <div className="problem-card">
-                <div className="problem-icon">📱</div>
+                <div className="problem-icon-wrapper">
+                  <Smartphone className="problem-icon-svg" size={40} />
+                </div>
                 <h3>Informasi Tidak Relevan</h3>
                 <p>Informasi dari YouTube tidak sesuai kondisi lokal Desa Sengka dan pengalaman praktis setempat.</p>
               </div>
