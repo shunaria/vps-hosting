@@ -10,7 +10,11 @@ import {
   Wheat,
   MessageSquare,
   CheckCircle,
-  ArrowRight
+  ArrowRight,
+  AlertTriangle,
+  DollarSign,
+  Smartphone,
+  Sprout
 } from 'lucide-react';
 
 function App() {
