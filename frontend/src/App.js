@@ -65,8 +65,8 @@ function App() {
         <div className="container">
           <div className="header-content">
             <div className="logo">
-              <Wheat className="logo-icon" />
-              <span className="logo-text">TaniSengka</span>
+              <img src="/WhatsApp Image 2025-12-13 at 23.39.42.jpeg" alt="Logo Padi" className="logo-icon" />
+              <span className="logo-text">Belajar Tani</span>
             </div>
             <nav className="nav">
               <a href="#fitur" className="nav-link">Fitur</a>
@@ -120,7 +120,7 @@ function App() {
             <div className="hero-visual">
               <div className="visual-card">
                 <div className="visual-icon-container">
-                  <Wheat className="visual-icon" size={80} />
+                  <img src="/WhatsApp Image 2025-12-13 at 23.39.42.jpeg" alt="Padi" className="visual-icon" />
                 </div>
                 <div className="visual-decoration decoration-1"></div>
                 <div className="visual-decoration decoration-2"></div>
@@ -174,7 +174,7 @@ function App() {
       <section id="fitur" className="features-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Fitur Platform TaniSengka</h2>
+            <h2 className="section-title">Fitur Platform Belajar Tani</h2>
             <p className="section-subtitle">
               Semua yang Anda butuhkan untuk meningkatkan hasil pertanian dalam satu platform
             </p>
@@ -209,7 +209,7 @@ function App() {
             <div className="benefits-text">
               <h2 className="section-title">Manfaat untuk Petani</h2>
               <p className="benefits-intro">
-                Platform TaniSengka dirancang khusus untuk membantu petani Desa Sengka 
+                Platform Belajar Tani dirancang khusus untuk membantu petani Desa Sengka 
                 mendapatkan informasi yang tepat dan meningkatkan hasil panen.
               </p>
               <ul className="benefits-list">
@@ -242,7 +242,7 @@ function App() {
           <div className="cta-content">
             <h2 className="cta-title">Siap Meningkatkan Hasil Panen Anda?</h2>
             <p className="cta-description">
-              Bergabunglah dengan platform TaniSengka dan dapatkan akses ke informasi pertanian 
+              Bergabunglah dengan platform Belajar Tani dan dapatkan akses ke informasi pertanian 
               yang relevan dengan kondisi lokal Desa Sengka.
             </p>
             <Button className="btn-cta" size="lg">
@@ -260,7 +260,7 @@ function App() {
             <div className="footer-section">
               <div className="footer-logo">
                 <Wheat className="footer-logo-icon" />
-                <span className="footer-logo-text">TaniSengka</span>
+                <span className="footer-logo-text">Belajar Tani</span>
               </div>
               <p className="footer-description">
                 Platform komunikasi dan edukasi untuk petani Desa Sengka
@@ -285,11 +285,11 @@ function App() {
             <div className="footer-section">
               <h4 className="footer-heading">Kontak</h4>
               <p className="footer-contact">Desa Sengka</p>
-              <p className="footer-contact">Email: info@tanisengka.id</p>
+              <p className="footer-contact">Email: info@Belajar Tani.id</p>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2025 TaniSengka. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Belajar Tani. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>
